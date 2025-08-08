@@ -22,3 +22,14 @@ function add(num1, num2, num3, num4, num5){
 
 add(41, 78, 65, 90, 15)
 
+
+function difference(para1, para2) {
+    
+    const diff = para1 - para2;
+    console.log(para1, para2, 'difference is', diff);    
+
+}
+const fatherAge = 58;
+const daughterAge = 25;
+
+difference(fatherAge, daughterAge);
